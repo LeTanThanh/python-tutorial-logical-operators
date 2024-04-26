@@ -18,3 +18,13 @@ if __name__ == "__main__":
   price = 9.99
   print(price > 10 or price < 20)
   print(price > 10 or price < 5)
+
+  # The not operator
+
+  """
+  not a
+  """
+
+  price = 9.99
+  print(not price > 10)
+  print(not (price > 5 and price < 10))
